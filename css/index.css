@@ -1,0 +1,35 @@
+body {
+  font-family: "Clash Grotesk", sans-serif;
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-img {
+  width: 10%;
+}
+.nav-ul {
+  display: flex;
+  gap: 20%;
+}
+.nav-ul li {
+  list-style-type: none;
+  font-weight: 600;
+}
+.nav-ul hr {
+  border: 2px solid black;
+}
+.contact {
+  background-color: pink;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 25px;
+  position: relative;
+  bottom: 0.3em;
+}
+.container {
+  background-image: url("../images/Real-Weddings.jpeg");
+  margin-top: -2%;
+}
